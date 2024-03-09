@@ -9,6 +9,7 @@ function App() {
           <Images src={img1} alt={''}></Images>
           <div style={{margin: '20px'}}>
             <Title>Headline</Title>
+            <Content>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Content>
           </div>
         </Card>
 
@@ -38,6 +39,14 @@ const Title = styled.h1`
   letter-spacing: 0;
   font-weight: 700;
   color: black;
+`;
+
+const Content = styled.p`
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: #ABB3BA;
+  margin: 19px 0 19px 0;
 `;
 
 
